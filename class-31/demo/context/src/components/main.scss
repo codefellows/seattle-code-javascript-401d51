@@ -1,0 +1,14 @@
+body, html {
+  height: 100%;
+}
+
+body, #root, main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+main > section {
+  flex: 1;
+  padding: 2em;
+}
