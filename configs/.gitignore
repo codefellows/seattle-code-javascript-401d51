@@ -5,6 +5,12 @@ temp
 build
 memory
 
+# Sequelize CLI
+config.json
+
+# sqlite memory artifacts
+memory
+
 # Created by https://www.gitignore.io/api/vim,osx,node,linux,windows
 ### Linux ###
 *~
