@@ -1,5 +1,9 @@
 # Class 01: Course Logistics, Node Runtime, Tests, Continuous Integration (CI)
 
+## Whiteboard
+
+[Today's Freehand](https://projects.invisionapp.com/freehand/document/GsWMIsyrf)
+
 ## Course Logistics
 
 ### Safe Place!
@@ -47,3 +51,12 @@ JavaScript runtime environment!  (it allows us to run js)
 ### Middleware
 
 > middleware takes in req, res, next and can do some processing and pass off the request to the NEXT middleware OR it can send a response.
+
+### Jest and Supertest
+
+> used to test our express server.  
+
+Docs:
+- [jest](https://jestjs.io/docs/getting-started)
+- [jest expect methods](https://jestjs.io/docs/expect)
+- [supertest](https://www.npmjs.com/package/supertest)
