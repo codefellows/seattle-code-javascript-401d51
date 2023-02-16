@@ -30,6 +30,8 @@ Does it make sense to use the SAME database for testing, for development, AND fo
 "db:create": "sequelize db:create"
 ```
 
+to initialize config file, run:  `npm run db:create` 
+
 ### db init settings
 
 ```
@@ -42,9 +44,9 @@ Does it make sense to use the SAME database for testing, for development, AND fo
   },
   ```
 
-  run:  `npm run db:create` 
+to create database, run:  `npm run db:create` 
 
-  confirm success by running `psql` in terminal, att prompt run `\l` to list databases.  you should see your database in list!
+confirm success by running `psql` in terminal, att prompt run `\l` to list databases.  you should see your database in list!
 
   ## Postgres Commands
 

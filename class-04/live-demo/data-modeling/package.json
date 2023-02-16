@@ -1,0 +1,36 @@
+{
+  "name": "server-deployment-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "NODE_ENV=test jest --verbose --coverage",
+    "test-watch": "NODE_ENV=test jest --watchAll --verbose --coverage",
+    "db:config": "sequelize init:config",
+    "db:create": "sequelize db:create"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkgallaway/server-deployment-practice-d51.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkgallaway/server-deployment-practice-d51/issues"
+  },
+  "homepage": "https://github.com/rkgallaway/server-deployment-practice-d51#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "eslint": "^8.34.0",
+    "express": "^4.18.2",
+    "jest": "^29.4.2",
+    "pg": "^8.9.0",
+    "sequelize": "^6.28.0",
+    "sequelize-cli": "^6.6.0",
+    "sqlite3": "^5.1.4",
+    "supertest": "^6.3.3"
+  }
+}
