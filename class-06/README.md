@@ -11,6 +11,10 @@ Today, we'll be looking at ways to create an account and securely authenticate a
 - Warmup question
 - Lecture
 
+## Whiteboard
+
+[Today's Freehand](https://projects.invisionapp.com/freehand/document/QWqOYAP19)
+
 ## Learning Objectives
 
 ### Students will be able to
