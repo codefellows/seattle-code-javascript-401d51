@@ -4,12 +4,18 @@
 
 Using a "Bearer Token" to re-authenticate with a server following a successful login, or obtaining/generating a permanent key
 
+
+
 ## Class Outline
 
 <!-- To Be Completed By Instructor -->
 - Code Review
 - Warmup question
 - Lecture
+
+## Whiteboard
+
+[Today's Freehand](https://projects.invisionapp.com/freehand/document/DkHU4YFRY)
 
 ## Learning Objectives
 
@@ -18,9 +24,12 @@ Using a "Bearer Token" to re-authenticate with a server following a successful l
 #### Describe and Define
 
 - Bearer Authentication
-- JSON Web Tokens (jwt)
-- Web Security
+  - take the user information and generate a token.  the user can then "bare" that token and all context of auth is contained therein:  aka who you are and what you do.  a token can ALSO have additional security protocols / security measures.  i.e. one time use, expire in a certain amount of time, or create sessions
+- JSON Web Tokens (jwt):  contains the user information and possible security protocols
+- Web Security: secure online or accessible content
 - When to use Basic or Bearer Authentication
+  - basic:  used when we sign in.
+  - bearer: to secure specific routes as needed to further secure data
 
 #### Execute
 
