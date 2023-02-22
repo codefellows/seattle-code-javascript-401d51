@@ -13,6 +13,10 @@ Given a proper and valid user with a set of permissions, we can grant or restric
 - Warmup question
 - Lecture
 
+## Whiteboard
+
+[Today's Freehand]()
+
 ## Learning Objectives
 
 ### Students will be able to
@@ -20,9 +24,14 @@ Given a proper and valid user with a set of permissions, we can grant or restric
 #### Describe and Define
 
 - Authorization
+  - what you can do based on the role you have
 - Roles
+  - the function assumed pr part by played by a person, specific capabilities are associated with each role
 - Capabilities
-- Access Control
+  - crud functions that can be performed: i.e. `create, read, update, delete`
+- Access Control (ACL).  similar Role Based Access Control (RBAC)
+    - allowing or blocking the delivery of content based on the capabilities associated with a person's role
+
 
 #### Execute
 
