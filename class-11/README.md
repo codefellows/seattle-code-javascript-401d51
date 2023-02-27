@@ -11,6 +11,10 @@ Today, we will leverage the ability of Javascript to raise events, monitor event
 - Warmup question
 - Lecture
 
+## Whiteboard
+
+[Today's Freehand](https://projects.invisionapp.com/freehand/document/ZcRKfoKog)
+
 ## Learning Objectives
 
 ### Students will be able to
@@ -18,8 +22,10 @@ Today, we will leverage the ability of Javascript to raise events, monitor event
 #### Describe and Define
 
 - Events
+  - activity or call to action.  doing something.
 - ... specifically, the Node event system
 - Event driven architecture
+  - an event is created / raised /fired, with the intention of receiving a (possible) programmatic response
 
 #### Execute
 
