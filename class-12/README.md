@@ -7,6 +7,9 @@ Description Here
 ## Class Outline
 
 <!-- To Be Completed By Instructor -->
+## Whiteboard
+
+[Today's Freehand](https://projects.invisionapp.com/freehand/document/2gbxL15P9)
 
 ## Learning Objectives
 
@@ -125,4 +128,4 @@ Servers or clients can "emit" or "broadcast" events in Socket.io by issuing eith
 
 ```socket.broadcast('cool-thing-happened', "WOW!");
 
-Refer to the [emit cheatsheet](https://socket.io/docs/emit-cheatsheet/) for examples and use cases.
+Refer to the [emit cheatsheet](https://socket.io/docs/v4/emit-cheatsheet/) for examples and use cases.
