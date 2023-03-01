@@ -8,6 +8,10 @@ To this point, we've built servers based on internal event processing and networ
 
 <!-- To Be Completed By Instructor -->
 
+## Whiteboard
+
+[Today's Freehand](https://projects.invisionapp.com/freehand/document/U6LsQUWO9)
+
 ## Learning Objectives
 
 ### Students will be able to
