@@ -70,6 +70,8 @@ to deploy via elastic beanstalk in the GUI
 1. choose file and upload
 1. you are done making selections, click the  orange `create application` button
 
+## AWS Elastic Beanstalk
+
 to deploy via elastic beanstalk in the CLI
 1. `eb init`
   1. use default names, select region, no need to add SSH
