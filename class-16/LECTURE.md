@@ -75,7 +75,7 @@ to deploy via elastic beanstalk in the GUI
 to deploy via elastic beanstalk in the CLI
 1. `eb init`
   1. use default names, select region, no need to add SSH
-1. `eb deploy`
+1. `eb create`
   1. use default names, select region, no need to add "extras" with thee y/n questions
 1. that's it.  note: create ALSO deploys code
 1. if you need to update your code, run `eb deploy`
