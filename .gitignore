@@ -14,6 +14,9 @@ config.json
 # sqlite memory artifacts
 memory
 
+# instructor notes
+instructor/*
+
 **/docs/*
 !**/docs/config/
 !**/docs/swagger.json
