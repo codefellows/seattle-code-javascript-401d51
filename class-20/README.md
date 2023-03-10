@@ -6,7 +6,6 @@
   - Make sure it works great
   - Make sure it's covered in tests
   - Make sure it has no UI -- this should be a back-end project only
-  - Your may build a back-end for your final project (upon instructor approval)
 
 Tools At Your Disposal
 
