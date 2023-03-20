@@ -1,0 +1,31 @@
+// create variables -moved to another file
+$bg-color: lightgray;
+$primary: purple;
+$secondary: green;
+
+@mixin theme(){
+  background-color: $bg-color;
+  color: $primary;
+}
+
+article {
+  @include theme;
+  // background-color: $bg-color;
+  border: 1px solid black;
+  width: 50%;
+  margin: auto;
+  margin-top: 10vw;
+
+  h4 {
+    text-align: center;
+    color: $secondary;
+  }
+
+  p {
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 5vw;
+  }
+}
+
