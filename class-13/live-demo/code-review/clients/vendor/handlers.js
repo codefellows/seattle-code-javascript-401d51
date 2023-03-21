@@ -3,7 +3,6 @@
 const Chance = require('chance');
 const chance = new Chance();
 
-
 const generateOrder = (socket, payload = null) => {
   if(!payload){
     payload = {

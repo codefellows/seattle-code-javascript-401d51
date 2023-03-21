@@ -9,7 +9,16 @@ jest.mock('../socket.js', () => {
     emit: jest.fn(),
   };
 });
-console.log = jest.fn();
+
+beforeEach(() => {
+  // Attach to the console (take it over)
+  consoleSpy = jest.spyOn(console, 'log').mockImplementation();
+});
+
+afterEach(() => {
+  // Put the console back
+  consoleSpy.mockRestore();
+});
 
 describe('Vendor', () => {
   let payload = {
@@ -20,13 +29,13 @@ describe('Vendor', () => {
   };
   it('emits an order as expected', () => {
     generateOrder(socket, payload);
-    expect(console.log).toHaveBeenCalledWith('VENDOR: order ready for pickup.');
+    expect(consoleSpy).toHaveBeenCalledWith('VENDOR: order ready for pickup.');
     expect(socket.emit).toHaveBeenCalledWith('PICKUP', payload);
   });
 
   it('thanks driver', () => {
     thankDriver(payload);
-    expect(console.log).toHaveBeenCalledWith('Thanks for delivery the package to', payload.customer);
+    expect(consoleSpy).toHaveBeenCalledWith('Thanks for delivery the package to', payload.customer);
 
   });
 });
