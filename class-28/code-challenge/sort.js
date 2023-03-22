@@ -2,7 +2,7 @@
 
 const { mainModule } = require('process');
 
-// likely need to write the "callback" compareYear
+// need to write the "callback" compareYear
 function sortYear(arr) {
   arr.sort(compareYear)
 }
