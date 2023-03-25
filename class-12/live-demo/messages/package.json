@@ -1,0 +1,21 @@
+{
+  "name": "messages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chance": "^1.1.10",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.35.0",
+    "jest": "^29.4.3",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
