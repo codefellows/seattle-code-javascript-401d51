@@ -14,6 +14,8 @@ Concise Description of why this app exists
 - [back-end server url](http://xyz.com) (when applicable)
 - [front-end application](http://xyz.com) (when applicable)
 
+### Collaborators
+
 ### Setup
 
 #### `.env` requirements (where applicable)

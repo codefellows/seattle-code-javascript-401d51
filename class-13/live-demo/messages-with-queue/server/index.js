@@ -47,7 +47,7 @@ server.on('connection', (socket) => {
     console.log('SERVER: Message event', payload);
 
     // manage queue
-    // messageQueue is the single queue for teh entire system
+    // messageQueue is the single queue for the entire system
     // current queue will be nested within and the specific queue for our room (flowers or widgets)
     let currentQueue = messageQueue.read(payload.queueId);
     if(!currentQueue){

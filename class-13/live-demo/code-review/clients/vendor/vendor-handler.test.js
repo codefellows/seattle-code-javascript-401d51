@@ -10,6 +10,8 @@ jest.mock('../socket.js', () => {
   };
 });
 
+let consoleSpy;
+
 beforeEach(() => {
   // Attach to the console (take it over)
   consoleSpy = jest.spyOn(console, 'log').mockImplementation();
