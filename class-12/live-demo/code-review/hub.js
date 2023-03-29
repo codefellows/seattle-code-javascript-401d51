@@ -1,10 +1,10 @@
 'use strict';
 
-let eventPool = require('./eventPool');
+let eventPool = require('./lib/events');
 
 //-----handlers-----//
-require('./vendor/handler');
-require('./driver/handler');
+require('./clients/vendor/');
+require('./clients/driver/handler');
 
 //-----listeners-----//
 // Listens to ALL events in the Event Pool.

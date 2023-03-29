@@ -1,7 +1,7 @@
 'use strict';
 //driver
 
-const eventPool = require('../eventPool.js');
+const eventPool = require('../../lib/events');
 
 
 // Listens for a pickup event from the Global Event Pool and responds with the following:

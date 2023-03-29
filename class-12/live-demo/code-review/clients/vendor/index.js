@@ -1,6 +1,6 @@
 'use strict';
 
-const eventPool = require('../eventPool.js');
+const eventPool = require('../../lib/events');
 const { createPackage, thankDriver } = require('./handler');
 
 //Listens for a delivered event
@@ -14,9 +14,9 @@ const { createPackage, thankDriver } = require('./handler');
 eventPool.on('DELIVERY', confirmDelivery);
 
 // responds by logging a message to the console:
-function confirmDelivery() {
+function confirmDelivery(payload) {
   setTimeout(() => {
-    thankDriver();
+    thankDriver(payload);
   }, 1000);
 }
 

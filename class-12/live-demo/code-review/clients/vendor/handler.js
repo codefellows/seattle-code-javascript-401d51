@@ -1,7 +1,7 @@
 'use strict';
 //vendor
 
-const eventPool = require('../eventPool.js');
+const eventPool = require('../../lib/events');
 let Chance = require('chance');
 let chance = new Chance();
 
@@ -15,13 +15,13 @@ function createPackage(payload=null) {
     };
   }
   
-  // not required, but maybe useful for debugging
+  // log not required, but maybe useful for auditing functionality
   console.log('VENDOR: we have an order ready');
   eventPool.emit('PICKUP', payload);
 }
 
-function thankDriver(){
-  console.log('Thank you for ordering!');
+function thankDriver(payload){
+  console.log(`Thank you for ordering ${payload.customer}!`);
 }
 
 module.exports = {
