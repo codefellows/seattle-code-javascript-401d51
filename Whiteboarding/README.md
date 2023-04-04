@@ -15,10 +15,10 @@
 
 > Ideally you can iteratively AND recursively navigate Linked Lists and Trees
 
-- find midpoint of a linked list (how to use a runner)
+- find midpoint of a linked list (how to use a runner) - [Ash's Whiteboard](https://projects.invisionapp.com/freehand/document/cvOVJjxFi)
 - reverse a linked list 
-- remove node (or duplicates) from a linked list - [Joe's Whiteboard]()
-- Binary Tree:  be able to traverse structure and do a thing! (conditionally or not?)
+- remove node (or duplicates) from a linked list - [Joe's Whiteboard](https://projects.invisionapp.com/freehand/document/HmjR0PrSI)
+- Binary Tree:  be able to traverse structure and do a thing! (conditionally or not?) - [Jonathan's Whiteboard](https://projects.invisionapp.com/freehand/document/fBtptApHz)
 - Binary Search Tree:  be able to traverse structure and do a thing! (conditionally or not?)   - Big O : time O(log n) aka (cut options in half each)
 - trees - be familiar with terminology
   - leaf
@@ -27,4 +27,6 @@
   - breadth first traversal
 
   remember the warmups!
-  find examples to practice at geeks for geeks dsa
+  - [linked list traversal warmup](https://replit.com/@rkgallaway/401d51-linked-list-traversal#index.js)
+  - [tree traversal warmup](https://replit.com/@rkgallaway/tree-traversal-d51)
+  find examples to practice at geeks for [geeks dsa](https://www.geeksforgeeks.org/data-structures/)
