@@ -37,7 +37,7 @@ class Graph {
   }
 
   // this is good enough!  let's call it!
-  getNodes(){
+  getVertices(){
     let iterator = this.adjacencyList.keys();
     // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/keys
     // return all the keys 
